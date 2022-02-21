@@ -1,4 +1,3 @@
-
 from datetime import datetime
 from pytz import timezone
 
@@ -25,5 +24,5 @@ def current_date_format(fecha):
 
     return mensaje
 
-now = datetime.now()
-print(current_date_format(now))
+ahora = datetime.now()
+print(current_date_format(ahora))
